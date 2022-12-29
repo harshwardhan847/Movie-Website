@@ -41,9 +41,9 @@ async function getMovies(url) {
         <div class="overview-single"><span>Overview : </span>${movie.overview}</div>
         <div class="budget"><span>Budget : </span>${movie.budget}</div>
         <div class="tagline"><span>Tagline : </span>${movie.tagline}</div>
-        <div class="vote_average ${getOverviewRating(movie.vote_average)}"><span>Rating : </span>${movie.vote_average}</div>
+        <div class="vote_average ${getOverviewRating(movie.vote_average)}"><span class="rating">Rating : </span>${movie.vote_average}</div>
         <div class="vote_count"><span>Vote Count : </span>${movie.vote_count}</div>
-        <div class="genres"><span>geners:</span>${movie.genres[0].name} ${movie.genres[1].name} ${movie.genres[2].name}</div>
+        <div class="genres"><span>Geners:</span>${movie.genres[0].name} ${movie.genres[1].name} ${movie.genres[2].name}</div>
         <div class="production_companies">
 
         </div>
@@ -52,7 +52,7 @@ async function getMovies(url) {
         </div>
         <div class="release_date"><span>release date : </span>${movie.release_date}</div>
         <div class="revenue"><span>Revenue : </span>${movie.revenue}</div>
-        <div class="runtime"><span>runtime : </span>${movie.runtime}min</div>
+        <div class="runtime"><span>Runtime : </span>${movie.runtime}min</div>
         
         <img src="${poster}" alt="" class="poster">
         <a href="${movie.homepage}" class="watchNow primary-button">Watch Now</a>

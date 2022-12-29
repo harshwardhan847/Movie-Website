@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Freehand&family=Kaushan+Script&family=Poppins:ital,wght@1,200&family=Roboto:wght@400;700&family=Smooch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 :root {
-  --primary_color: #131820;
-  --secondary_color: #0b1a35;
+  --primary_color: #ffcc00;
+  --secondary_color: #ffffff;
 }
 
 :root {
@@ -27,7 +28,8 @@ body {
 
 h1 {
   font-size: 3rem;
-  color: var(--secondary-text-color);
+  color: black;
+  font-family: 'Montserrat', sans-serif;
 }
 h2 {
   font-size: 2rem;
@@ -115,20 +117,28 @@ div {
   color: var(--accent-color) !important;
 }
 
-header {
+nav {
   background-color: var(--secondary_color);
   display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
   justify-content: space-between;
   padding: 1.6rem;
+  position: sticky;
 }
 
 .logo {
   font-size: 2rem;
-  background: -webkit-linear-gradient(#374151, #94b2e0);
+  background: -webkit-linear-gradient(#000000, #000000);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
+  text-align: left;
+}
+
+.logo-img {
+  width: 50px;
 }
 
 .search {
@@ -159,15 +169,15 @@ header {
 }
 
 .green{
-    color: lightgreen;
+    color: lightgreen !important;
 }
 
 .red {
-    color: crimson;
+    color: crimson !important;
 }
 
 .orange {
-    color: orange;
+    color: orange !important;
 }
 
 
@@ -238,4 +248,41 @@ header {
 
 .main-content {
   margin: 1rem 0;
+}
+
+
+
+
+span {
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: #000000;
+}
+
+.vote_average {
+  background:black;
+  padding: 0.4rem;
+  border-radius: 10px;
+  border:2px solid #000000;
+  
+  
+}
+
+
+#single-main div {
+  color: #ff00b3;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.original_title {
+  margin: 1rem 0;
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-text-stroke: 3px black;
+  color: transparent;
+}
+
+.rating{
+  color: red;
 }
