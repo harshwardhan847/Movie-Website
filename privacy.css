@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Freehand&family=Kaushan+Script&family=Poppins:ital,wght@1,200&family=Roboto:wght@400;700&family=Smooch&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+:root {
+  --primary_color: #ffcc00;
+  --secondary_color: #ffffff;
+}
+
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #183b54;
+  --footer-background: #ebf2fa;
+  --padding-inline-section: 20px;
+}
+
+main {
+  margin: 1rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary_color);
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3rem;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  color: var(--secondary-text-color);
+  line-height: 1.8rem;
+  color: rgb(255, 0, 191);
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  background-color: var(--secondary_color);
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+  padding: 1.6rem;
+  position: sticky;
+}
+
+.logo {
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#000000, #000000);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  text-align: left;
+}
+
+.logo-img {
+  width: 50px;
+}
+
+.search {
+  background-color: transparent;
+  border: 0.2rem solid #64748b;
+  border-radius: 5rem;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+}
+
+.search::placeholder {
+  color: #78716c;
+}
+
+.search:focus {
+  outline: none;
+  background-color: var(--primary_color);
+  color: #fff;
+}

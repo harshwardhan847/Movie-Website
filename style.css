@@ -259,6 +259,9 @@ nav {
     overflow: hidden;
     position: relative;
   }
+  .search {
+    width: 6rem;
+  }
 }
 
 /* sub footer */

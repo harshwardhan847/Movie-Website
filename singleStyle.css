@@ -67,7 +67,7 @@ div {
 }
 
 .container {
-  max-width: 1180px;
+  /* max-width: 1180px; */
   margin-inline: auto;
   padding-inline: var(--padding-inline-section);
   flex-direction: column;
@@ -192,8 +192,9 @@ nav {
     background:#b9cde4;
 }
 .sub-footer-container {
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
+    align-items: center;
 }
 
 .sub-footer-links-container {
@@ -254,8 +255,8 @@ nav {
 
 
 span {
-  font-size: 1.5rem;
-  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-family: 'Montserrat',;
   font-weight: 900;
   color: #000000;
 }
@@ -272,15 +273,14 @@ span {
 
 #single-main div {
   color: #ff00b3;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
 .original_title {
   margin: 1rem 0;
-  font-family: 'Courier New', Courier, monospace;
-  -webkit-text-stroke: 3px black;
-  color: transparent;
+  font-family: sans-serif;
+  font-size: 5rem;
 }
 
 .rating{

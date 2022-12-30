@@ -37,20 +37,20 @@ async function getMovies(url) {
     <img src="${img}" alt="Backdrop Image" class="backdrop">
     <div class="container flex main-content">
         <div class="original_language"><span>Language : </span>${movie.original_language}</div>
-        <div class="status"><span>Status :</span>${movie.status}</div>
+        <div class="status"><span>Status : z</span>${movie.status}</div>
         <div class="overview-single"><span>Overview : </span>${movie.overview}</div>
         <div class="budget"><span>Budget : </span>${movie.budget}</div>
         <div class="tagline"><span>Tagline : </span>${movie.tagline}</div>
         <div class="vote_average ${getOverviewRating(movie.vote_average)}"><span class="rating">Rating : </span>${movie.vote_average}</div>
         <div class="vote_count"><span>Vote Count : </span>${movie.vote_count}</div>
-        <div class="genres"><span>Geners:</span>${movie.genres[0].name} ${movie.genres[1].name} ${movie.genres[2].name}</div>
+        <div class="genres"><span>Geners : </span>${movie.genres[0].name}</div>
         <div class="production_companies">
 
         </div>
         <div class="production_countries">
 
         </div>
-        <div class="release_date"><span>release date : </span>${movie.release_date}</div>
+        <div class="release_date"><span>Release date : </span>${movie.release_date}</div>
         <div class="revenue"><span>Revenue : </span>${movie.revenue}</div>
         <div class="runtime"><span>Runtime : </span>${movie.runtime}min</div>
         
