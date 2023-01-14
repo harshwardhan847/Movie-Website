@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Freehand&family=Kaushan+Script&family=Poppins:ital,wght@1,200&family=Roboto:wght@400;700&family=Smooch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 :root {
-  --primary_color: #ffcc00;
+  --primary_color: #3a9ae8;
   --secondary_color: #ffffff;
 }
 
 :root {
   --primary-text-color: #183b56;
   --secondary-text-color: #577592;
-  --accent-color: #2294ed;
-  --accent-color-dark: #183b54;
+  --accent-color: #ff8000;
+  --accent-color-dark: #c04000;
   --footer-background: #ebf2fa;
   --padding-inline-section: 20px;
 }
@@ -272,7 +272,7 @@ span {
 
 
 #single-main div {
-  color: #ff00b3;
+  color: #ffffff;
   font-size: 1.6rem;
   font-weight: 700;
 }

@@ -46,7 +46,7 @@ function gotoSingle(){
 }
 
   movies.forEach((movie) => {
-    const { title, poster_path, vote_average, overview} = movie;
+    const { title, poster_path, vote_average} = movie;
     const createEl = document.createElement("div");
     createEl.classList.add("movie");
     createEl.id = movie.id;

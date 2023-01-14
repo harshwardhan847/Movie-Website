@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Freehand&family=Kaushan+Script&family=Poppins:ital,wght@1,200&family=Roboto:wght@400;700&family=Smooch&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 :root {
-  --primary_color: #ffcc00;
+  --primary_color: #3a9ae8;
   --secondary_color: #ffffff;
 }
 
@@ -158,7 +158,7 @@ nav {
   width: 28rem;
   margin: 1.9rem;
   background-color: var(--secondary_color);
-  box-shadow: 0 0 30px 2px rgba(255, 109, 65, 0.699);
+  box-shadow: 0 0 30px 1px rgba(255, 119, 0, 0.708);
   overflow: hidden;
   position: relative;
   cursor: pointer;

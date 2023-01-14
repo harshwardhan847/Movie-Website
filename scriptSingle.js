@@ -37,7 +37,7 @@ async function getMovies(url) {
     <img src="${img}" alt="Backdrop Image" class="backdrop">
     <div class="container flex main-content">
         <div class="original_language"><span>Language : </span>${movie.original_language}</div>
-        <div class="status"><span>Status : z</span>${movie.status}</div>
+        <div class="status"><span>Status : </span>${movie.status}</div>
         <div class="overview-single"><span>Overview : </span>${movie.overview}</div>
         <div class="budget"><span>Budget : </span>${movie.budget}</div>
         <div class="tagline"><span>Tagline : </span>${movie.tagline}</div>
